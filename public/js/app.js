@@ -65803,7 +65803,7 @@ __webpack_require__(/*! ./bootstrap */ "./resources/js/bootstrap.js");
 __webpack_require__(/*! ./components/Example */ "./resources/js/components/Example.js"); //COLORS
 
 
-var PRIMARYCOLOR = '#F4773D'; //Nav Links 
+var PRIMARYCOLOR = '#F4773D'; //Nav Links
 
 var navItems = document.querySelectorAll(".nav-item");
 
@@ -65818,7 +65818,13 @@ for (var i = 0; i < navItems.length; i++) {
     e.target.style.background = 'transparent';
     e.target.style.borderRadius = '0px';
   });
-}
+} //dateTimePicker create Game
+
+
+var today = new Date();
+var date = today.getFullYear() + '-' + (today.getMonth() + 1) + '-' + today.getDate();
+var time = today.getHours() + ":" + today.getMinutes();
+var dateTime = date + ' ' + time;
 
 /***/ }),
 

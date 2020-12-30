@@ -26,7 +26,5 @@ Auth::routes();
 Route::get('/home', 'HomeController@index')->name('home');
 Route::get('/clubs', 'ClubController@showAll')->name('clubs');
 Route::get('/my-club', 'ClubController@showMyClub')->name('myClub');
-Route::get('/games', 'GameController@showAll')->name('clubs');
-
-
-
+Route::get('/games/{club_id?}', 'GameController@showAll')->name('games');
+Route::post('/games/store', 'GameController@store')->name('storeGame');

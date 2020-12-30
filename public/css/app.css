@@ -10914,6 +10914,11 @@ body {
   background: linear-gradient(to right, #F4773D, #08539c);
 }
 
+.bg-mix-op {
+  background: linear-gradient(to right, #F4773D, #08539c);
+  opacity: 0.85 !important;
+}
+
 .bg-primary-color {
   background: #F4773D;
 }
@@ -10999,5 +11004,36 @@ body {
 
 .logo-md img {
   width: 150%;
+}
+
+.head-games-primary {
+  background-color: #F4773D;
+  border-top-left-radius: 30px;
+  padding-bottom: 1rem;
+  padding-top: 1rem;
+}
+
+.head-games-secondary {
+  background-color: #08539c;
+  border-top-right-radius: 30px;
+  padding-bottom: 1rem;
+  padding-top: 1rem;
+}
+
+.text-head {
+  color: #FFF;
+  font-family: Audiowide;
+  font-size: 1.5rem;
+  text-align: center;
+  text-shadow: -5px 3px 4px rgba(0, 0, 0, 0.25);
+}
+
+.card-dark {
+  background: #343A40;
+  width: 80%;
+  align-self: center;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  margin-left: 10%;
 }
 

@@ -16,7 +16,7 @@ require('./components/Example');
 //COLORS
 const PRIMARYCOLOR = '#F4773D';
 
-//Nav Links 
+//Nav Links
 const navItems = document.querySelectorAll(".nav-item");
 for(var i = 0; i< navItems.length; i++){
     //Animate In
@@ -31,5 +31,9 @@ for(var i = 0; i< navItems.length; i++){
         e.target.style.borderRadius = '0px';
 
     });
-
 }
+//dateTimePicker create Game
+var today = new Date();
+var date = today.getFullYear()+'-'+(today.getMonth()+1)+'-'+today.getDate();
+var time = today.getHours() + ":" + today.getMinutes();
+var dateTime = date+' '+time;

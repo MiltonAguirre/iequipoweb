@@ -22,6 +22,14 @@ body{
         $SECONDARY-COLOR
     );
 }
+.bg-mix-op{
+    background: linear-gradient(
+      to right,
+        $PRIMARY-COLOR,
+        $SECONDARY-COLOR
+    );
+    opacity: 0.85 !important;
+}
 .bg-primary-color{
     background: $PRIMARY-COLOR;
 }
@@ -67,7 +75,7 @@ body{
     font-size: 1.2rem;
     text-align: center;
 
-} 
+}
 .phone {
     min-height: 35vh;
     display: flex;
@@ -97,4 +105,34 @@ body{
 }
 .logo-md img{
     width: 150%;
+}
+//GAMES VIEW
+.head-games-primary{
+    background-color: $PRIMARY-COLOR;
+    border-top-left-radius: 30px;
+    padding-bottom: 1rem;
+    padding-top: 1rem;
+}
+
+.head-games-secondary{
+    background-color: $SECONDARY-COLOR;
+    border-top-right-radius: 30px;
+    padding-bottom: 1rem;
+    padding-top: 1rem;
+}
+
+.text-head{
+    color: #FFF;
+    font-family: Audiowide;
+    font-size: 1.5rem;
+    text-align: center;
+    text-shadow: -5px 3px 4px rgba(0, 0, 0, 0.25);
+}
+.card-dark{
+  background: $DARK-COLOR;
+  width: 80%;
+  align-self: center;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  margin-left: 10%;
 }
