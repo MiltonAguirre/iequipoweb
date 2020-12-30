@@ -1,0 +1,100 @@
+// Fonts
+@import url('https://fonts.googleapis.com/css?family=Nunito');
+@import url('https://fonts.googleapis.com/css?family=Audiowide');
+
+// Variables
+@import 'variables';
+
+// Bootstrap
+@import '~bootstrap/scss/bootstrap';
+
+
+body{
+    background: url("../../public/img/soccer-background.png") ;
+    background-size: cover;
+    background-blend-mode: screen;
+    background-attachment: fixed;
+}
+.bg-mix{
+    background: linear-gradient(
+      to right,
+        $PRIMARY-COLOR,
+        $SECONDARY-COLOR
+    );
+}
+.bg-primary-color{
+    background: $PRIMARY-COLOR;
+}
+.bg-secondary-color{
+    background: $SECONDARY-COLOR;
+    color:#fff;
+}
+.bg-dark-opacity{
+    background-color: $DARK-COLOR-OP;
+}
+.logo-text{
+    color: #FFF;
+    font-family: Audiowide;
+    font-size: 1.5rem;
+    text-align: center;
+    text-shadow: -5px 3px 4px rgba(0, 0, 0, 0.25);
+
+}
+.title-text{
+    color: $PRIMARY-COLOR;
+    font-family: Audiowide;
+    font-size: 5rem;
+    text-align: center;
+    text-shadow: -5px 3px 4px rgba(0, 0, 0, 0.25);
+}
+.title-page{
+    color: #FFF;
+    font-family: Audiowide;
+    font-size: 3rem;
+    text-align: center;
+    text-shadow: -5px 3px 4px rgba(0, 0, 0, 0.25);
+}
+.subtitle-text{
+    color: #fff;
+    font-family: "Monserrat" sans-serif;
+    font-size: 2rem;
+    font-weight: 700;
+    text-align: center;
+}
+.text{
+    color: #fff;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 1.2rem;
+    text-align: center;
+
+} 
+.phone {
+    min-height: 35vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.phone img {
+    width: 12rem;
+}
+.card-dark-opacity{
+    background-color: $DARK-COLOR-OP;
+    border-radius: 30px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    color: white;
+}
+.btn-download{
+    border-color: white;
+    border-width: 1.5px;
+    color: white;
+    font-weight: bold;
+    border-radius: 10px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+
+}
+.logo img{
+    width: 7%;
+}
+.logo-md img{
+    width: 150%;
+}
